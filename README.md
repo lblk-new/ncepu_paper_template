@@ -77,7 +77,11 @@
 
 
 
+### 编译方法
 
+xelatex>bib>xelatex>xelatex
+
+可参考[vscode配置latex教程](https://lblk.github.io/2021/04/07/vs-latex-workshop/)
 
 
 
