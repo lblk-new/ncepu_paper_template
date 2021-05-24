@@ -85,3 +85,15 @@ xelatex>bib>xelatex>xelatex
 
 
 
+
+
+
+
+
+
+
+
+### 有关查重
+
+查重是一种特产，专门排斥latex，所以查重时需要先输出为pdf，然后用word打开pdf使之转化为word文档，再进行上传和查重。
+
