@@ -1,0 +1,2 @@
+# ncepu_paper_template
+华北电力大学本科毕业论文latex模板
