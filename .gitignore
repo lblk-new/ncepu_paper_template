@@ -274,5 +274,4 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
-main.tex
 main.pdf
