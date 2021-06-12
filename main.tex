@@ -1,3 +1,7 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%版权所有 华电北京数理系信计1702邓羊驼
+%%%欢迎大家非商业使用 欢迎大家提出修改意见
+%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[oneside,10pt]{article} 
 \usepackage{amsmath}
 \usepackage[UTF8]{ctex}
@@ -23,7 +27,7 @@
 
 \newtheorem{th1}{定理}%定理环境名称：th1
 \linespread{1.5}%1.5倍行距
-
+\renewcommand\theequation{\arabic{section}-\arabic{equation}}
 
 
 
@@ -249,7 +253,10 @@
 \subsubsection{3}
 \paragraph{4}
 \subparagraph{5}
-??11??22??\cite{cal_pde,kingma2014adam,guo_convolutional_2016}
+xx11xx22xx\cite{cal_pde,kingma2014adam,guo_convolutional_2016}
+\begin{equation}
+  \mathbb{I} = \int f(x)dx
+\end{equation}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %此处应为正文写作部分
@@ -269,20 +276,7 @@
 \newpage
 \bibliography{ref}%填入bib文件名称
 %\bibliography{ref0}
-\titleformat{\section}{\centering\LARGE\bfseries}{}{1em}{}
 
-\newpage
-\section{致谢}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%此处应为致谢正文部分
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%？？？？？？？
-%？？？？？？？\\
 
 
 
@@ -317,6 +311,19 @@
 
 
 
+\titleformat{\section}{\centering\LARGE\bfseries}{}{1em}{}
+
+\newpage
+\section{致谢}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%此处应为致谢正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%？？？？？？？
+%？？？？？？？\\
 
 
 
