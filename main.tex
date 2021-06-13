@@ -1,6 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%
 %%%版权所有 华电北京数理系信计1702邓羊驼
 %%%欢迎大家非商业使用 欢迎大家提出修改意见
+%%%联系邮箱 dengyangtuo@gmail.com
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[oneside,10pt]{article} 
 \usepackage{amsmath}
@@ -29,6 +30,8 @@
 \linespread{1.5}%1.5倍行距
 \renewcommand\theequation{\arabic{section}-\arabic{equation}}
 
+\renewcommand{\thetable}{\arabic{section}-\arabic{table}}
+\renewcommand{\thefigure}{\arabic{section}-\arabic{figure}}
 
 
 
@@ -193,6 +196,7 @@
 \newpage
 \addcontentsline{toc}{section}{\Large ABSTRACT}
 \begin{enabstract}
+  \setmainfont{Times New Roman}
 \large
 11English abstract
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

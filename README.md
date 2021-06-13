@@ -71,9 +71,12 @@
 
 ### 插图
 
+
 \includegraphics[]{}
 
-请自行脑补上述命令的使用方法
+请自行脑补上述命令的使用方法，为添加图注，请使用figure环境对其进行包裹并用caption进行图注，详见：
+
+[图表环境说明](https://github.com/WenboSheng/epslatex-cn)
 
 
 
@@ -95,7 +98,7 @@ xelatex>bib>xelatex>xelatex
 
 ### 有关查重
 
-查重是一种特产，专门排斥latex，所以查重时需要先输出为pdf，然后用word打开pdf使之转化为word文档，再进行上传和查重。
+查重是一种特产，专门排斥latex，所以查重时需要先输出为pdf，然后用word打开pdf使之转化为word文档，再进行上传和查重。请放心，知网查重可以提交pdf
 
 
 
@@ -109,3 +112,4 @@ xelatex>bib>xelatex>xelatex
 
 添加了公式编号环境，建议在论文写作过程中全文使用equation环境而不是\\[-\\]或$$-$$
 
+添加了figure和table 环境下的注释（即图注、表注）
